@@ -1,0 +1,7 @@
+h, b, c, s = input().split(' ')
+h = int(h)
+b = int(b)
+c = int(c)
+s = int(s)
+mb = round((((h*16*c*s)/8)/1024)/1024, 1)
+print(mb, "MB")

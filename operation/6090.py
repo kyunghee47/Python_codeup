@@ -1,0 +1,5 @@
+a, m, d, n = input().split(' ')
+a = int(a)
+m = int(m)
+d = int(d)
+n = int(n)
